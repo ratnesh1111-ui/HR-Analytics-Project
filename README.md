@@ -1,11 +1,11 @@
-# 🧾 HR Analytics Dashboard Project
+# HR Analytics Dashboard Project
 
-## 📌 Objective
+##  Objective
 To analyze employee attrition patterns and identify factors influencing workforce stability using **Excel, SQL, Power BI, and Tableau**.
 
 ---
 
-## 🧰 Tools Used
+##  Tools Used
 - **Microsoft Excel** – Data Cleaning & Dashboard Creation  
 - **SQL** – Data Extraction, Transformation, and Analysis  
 - **Power BI** – Interactive Dashboard with DAX and Slicers  
