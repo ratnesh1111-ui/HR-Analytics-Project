@@ -31,7 +31,7 @@ To analyze employee attrition patterns and identify factors influencing workforc
 ---
 
 ##  SQL Highlights
-```sql
+
 SELECT Department, 
        COUNT(EmployeeID) AS Employee_Count,
        SUM(CASE WHEN Attrition = 'Yes' THEN 1 ELSE 0 END) AS Attrition_Count,
@@ -52,11 +52,11 @@ GROUP BY Department;
 ###  Challenge 2: SQL Column Mismatch Errors During Import
 **Problem:** When loading data into SQL, column headers didn’t match with the table schema.  
 **Solution:** Adjusted table schema and data types using SQL commands such as:
-```sql
+
 ALTER TABLE HR_Combined
 MODIFY COLUMN EmployeeID INT;
 
-## 💡 Key Insights
+##  Key Insights
 - Attrition is **higher in Sales and HR departments** compared to others.  
 - Employees with **no promotion for long durations** are more likely to leave.  
 - **Younger employees** tend to switch jobs more frequently for better opportunities.  
@@ -76,7 +76,7 @@ Encouraging **career growth**, **employee recognition**, and a **healthy work-li
 
 
 
----
+
 
 ##  Tags
 `#PowerBI` `#SQL` `#Tableau` `#Excel` `#DataAnalytics` `#HRAnalytics`
